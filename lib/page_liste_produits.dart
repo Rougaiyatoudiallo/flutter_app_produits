@@ -50,6 +50,7 @@ class ListProduits extends StatelessWidget {
               trailing: ElevatedButton(
                 child: Text("Voir"),
                 onPressed: () {
+                  // Naviguer vers la page de détails du produit
                   Navigator.push(
                     context,
                     MaterialPageRoute(
